@@ -14,11 +14,11 @@ class App extends Component {
     ],
     otherState:'no other state'
   }
-  switchNameHandler=()=>{
+  switchNameHandler=(newName)=>{
     this.setState({
       persons:[
       
-        {name:"Aakriti" , age:22},
+        {name:newName , age:22},
         {name:"Varsha" , age:22},
         {name:"Sourav" , age:22}
   
@@ -31,7 +31,7 @@ class App extends Component {
       <div className="App">
         <h1>Hello My firstReact-app</h1>
         <p>Sup Man</p>
-        <button onClick={this.switchNameHandler}>Click Here</button>
+        <button onClick={this.switchNameHandler.bind(this,'Jammu')}>Click Here</button>
         <Person name={this.state.persons[0].name} age={this.state.persons[0].age} />
         <Person name={this.state.persons[1].name} age={this.state.persons[1].age} click={this.switchNameHandler} />
         <Person name={this.state.persons[2].name} age={this.state.persons[2].age} />
