@@ -76,7 +76,7 @@ You can find the most recent version of this guide [here](https://github.com/fac
 - [Publishing Components to npm](#publishing-components-to-npm)
 - [Making a Progressive Web App](#making-a-progressive-web-app)
   - [Opting Out of Caching](#opting-out-of-caching)
-  - [Offline-First Considerations](#offline-first-considerations)
+  
   - [Progressive Web App Metadata](#progressive-web-app-metadata)
 - [Analyzing the Bundle Size](#analyzing-the-bundle-size)
 - [Deployment](#deployment)
